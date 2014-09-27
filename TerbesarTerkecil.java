@@ -23,12 +23,3 @@ public class TerbesarTerkecil
 				smallest = numbers[x];
 		}
 		
-		for(int x=0;x<10;x++)
-		{
-			jumlah = numbers[x]+jumlah;
-		}
-		System.out.println("Angka yang terbesar adalah : " + largetst);
-		System.out.println("Angka yang terkecil adalah : " + smallest);
-		System.out.println("Jumlahnya adalah : " + jumlah);
-	}
-}
