@@ -6,8 +6,7 @@ public class TerbesarTerkecil
 		//array dari 10 bilangan
 		int numbers[] = new int[10];
 		int smallest = numbers[0];
-		int largetst = numbers[0];
-		int jumlah = 0;
+		
 		Scanner scan=new Scanner(System.in);
 		for(int x=0;x<10;x++)
 		{
@@ -21,12 +20,4 @@ public class TerbesarTerkecil
 			else if (numbers[x] < smallest)
 				smallest = numbers[x];
 		}
-		for(int x=0;x<10;x++)
-		{
-			jumlah = numbers[x]+jumlah;
-		}
-		System.out.println("Angka yang terbesar adalah : " + largetst);
-		System.out.println("Angka yang terkecil adalah : " + smallest);
-		System.out.println("Jumlahnya adalah : " + jumlah);
-	}
-}
+		
